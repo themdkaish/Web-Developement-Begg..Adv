@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    <!-- <h1>Job Application</h1> -->
+
+    <form>
+        <fieldset>
+            <legend align = "center"><b><h1>Job Application</h1></b></legend>
+            <label for="name">Name:</label>
+            <input type="text">
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email">
+            <br>
+            <label for="Phone">Phone:</label>
+            <input type="tel">
+            <br>
+            <label for="Resume">Resume:</label>
+            <br>
+            <input type="file">
+            <br>
+            <label for="Experience">Experience(Years):</label>
+            <input type="number" id="Experience" min="0" max="40" placeholder="1">
+            <fieldset>
+                <legend>Skills:</legend>
+                <input type="checkbox">HTML
+                <br>
+                <input type="checkbox">CSS
+                <br>
+                <input type="checkbox">JavaScript
+            </fieldset>
+            <label for="Education">Higest Education:</label>
+            <select name="Education" id="Education" placeholder = "Choose"> 
+                <option value=""  hidden>Select an option</option>
+                <option value="10">10th</option>
+                <option value="12">12th</option>
+                <option value="Grad.">Graduation</option>
+                
+            </select>
+            <br>
+            <label for="Available">Avaiability:</label>
+            <br>
+            <input type="radio">Full-Time
+            <br>
+            <input type="radio">Part-Time
+            <br>
+        <label for="Additional">Additional Comments:</label>
+        <br>
+        <textarea name="Comments" id="Additional" cols="40" rows="5"></textarea>
+        <br>
+        <button type="submit">submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
