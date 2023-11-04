@@ -1,0 +1,17 @@
+#heading{
+    color: red;
+    font-family: 'Roboto Slab', serif;
+    border: 10px solid; 
+}
+#description{
+    font-weight :bolder;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    /* font-display: ; */
+    /* line-height: 50px; */
+    font-stretch: expanded;
+    color: yellow;
+    background-color: black;
+    list-style: decimal;
+    border:  10px solid green;
+}
